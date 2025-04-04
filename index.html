@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
-            padding: 0;
+            padding: 0px;
         }
         nav {
             background: #333;
@@ -54,28 +54,33 @@
             width: 100%;
         }
         /* 左文本容器 */
-        .left-text {
+        .right-text {
             padding-left: 40px;
-            width: 50%;
-            float: left;
+            width:50%; /* 修正容器总宽度 */
+            /*background: #f0f0f0; */     /* 调试辅助：可视化容器边界 */
+            float: right;
             padding: 20px;
         }
-        /* 右图片容器 */
-        .right-image {
+       
+        /* 图片容器 */
+        .left-image {
             width: 50%;
             float: right;
         }
-        .right-image img {
-            width: 50%;
+        .left-image img {
+            width: 55%;
             height: auto;
             display: block;
             margin: 0 auto;
+            margin-top: 20px;
+            border-radius: 10px 10px 10px 10px /*10% 10%*/ ;
 /*             vertical-align: bottom; /* 消除图片底部间隙 */ */
         }
         /* 下半部分 */
         .bottom-section {
             clear: both; /* 关键：清除浮动影响 */
-            padding: 20px;
+            padding-left: 150px;
+            padding-top: 20px;
             width: 100%;
         }
     </style>
@@ -84,65 +89,147 @@
     <nav>
         <a href="index.html">Home</a>
         <a href="research.html">Research</a>
-        <a href="teaching.html">Teaching</a>
+        <a href="ra.html">学术指导和助研招聘</a>
     </nav>
     <div class="container">
         <!-- 上半部分 -->
         <div class="top-section">
-            <div class="left-text">
-            <h1>    Yunqi ZHANG 张云齐</h1>
+            <div class="right-text">
+            <h1>Yunqi ZHANG <span style="font-family: '楷体', KaiTi, DFKai-SB, sans-serif;">张云齐</span></h1>
             <p>
-                Associate Professor, tenured<br>
-                长任副教授（教授）（2023.12 ~ )<br>
+                <strong> Associate Professor (tenured, senior title)<br>
+                长任副教授（教授）（2023.12 ~ )</strong><br><br>
             </p>
             <P>
             Associate Professor<br>
-            副教授（2023.5 ~ 2023.12）<br>
+            副教授（2023.5 ~ 2023.12）<br><br>
             </P>
             <P>
             Assistant Professor<br>
-            助理教授（2016 ~ 2023.5)<br>
+            助理教授（2016 ~ 2023.5)<br><br>
             </p>
             <p>
             School of Finance, Nankai University<br>
             Email: yunqizhang "at" u.nus.edu<br>
             </p>
             </div>
-            <div class="right-image">
+            <div class="left-image">
                 <img src="Profile_Photo.jpg" alt="Photo" width="25%">
             </div>
         </div>
         
         <!-- 下半部分 -->
         <div class="bottom-section">
-            <p>段落2内容 - 这里是独立的下半部分。Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+               <h2>Education</h2>
+            <p>PhD, National Unviersity of Singapore, 2011 ~ 2016</p>
+            <p>B.A. in Finance, School of Finance, Southwestern University of Finance and Economics, China, 2010<br>
+<br>
+</p>
+
+<h2>Research Interests</h2>
+<p>Banking & Corporate Finance<br>
+Consumer Finance<br>
+Capital Market<br>
+Housing Market<br><br></p>
+
+<h2>Referee</h2>
+<p>Management Science<br>
+Journal of Business Ethics<br>
+Journal of Banking and Finance<br>
+Real Estate Economics<br>
+China Economic Review<br>
+Journal of International Financial Management and Accounting<br>
+Journal of Financial Counseling and Planning<br>
+Economic Modelling<br>
+Finance Research Letter<br>
+Journal of Real Estate Finance and Economics<br>
+Research in International Business and Finance<br>
+International Journal of Finance and Economics<br>
+Journal of Housing Economics<br>
+Asia-Pacific Journal of Financial Studies<br>
+China Finance Review International<br>
+金融评论<br><br></p>
+
+<h2>Invited Conferences (* by co-author, # discussion)</h2>
+<p>2024 Pennsylvania State University<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; China International Forum on Finance and Policy #<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jinglin Luojia Finance Forum, Wuhan University <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Asian Finance Association Annual Meeting #<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contemporary Topics on Financial Markets Conference #<br>
+2023 ASSA-AREUEA<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XJTLU, Suzhou<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Great Bay Area Finance Forum, Guangzhou (Scheduled)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 中国经济学年会<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MRS, Online<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CBCF, Xiamen<br>
+2022 AMES-Asian Meeting of Econometric Society, Shenzhen<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FMA Annual Meeting, Atlanta<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; China Fintech Research Conference, Tianjin<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Asian Finance Association, Hong Kong<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AREUEA International, Tokyo*<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; APNHR, Online<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RUSE, Chengdu*<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CIFFP, Beijing<br>
+2021 CICF, Shanghai<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MFA, Online<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Global Virtual Seminars on Fintech, Georgetown University, Online*<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; World Finance Conference, Online<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AsRES-GCREC-AREUEA Joint Conference<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Banking and Financial Intermediary Forum, Beijing<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UIEB, Online<br>
+2020 ASSA-AREUEA, San Diego<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; China International Risk Forum, Online<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; China Finance Annual Conference, Online (中国金融学年会)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; School of Finance, Central University of Finance and Economics, Online<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SEM, Tsinghua University, Beijing<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CAFM, Online<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Greater China Area Finance Conference, Online<br>
+2019 Sydney Banking and Financial Stability Conference, Sydney<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Australasian Finance and Banking Conference, Sydney<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  FMA Annual Meeting, New Orleans*<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; China Finance and Accounting Annual Conference, Xiamen<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; China Finance Annual Conference, Hangzhou  (中国金融学年会)<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; China International Risk Forum, Tianjin<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conference on Asia-Pacific Financial Markets, Seoul*<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lingnan College (University), SYS, Guangzhou<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WISE, Xiamen University, Xiamen<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National School of Development, Peking University, Beijing<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CAFD, Central University of Finance and Economics, Beijing<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SJTU RUSE, Shanghai<br>
+2018 AREUEA International Conference 2018, Guangzhou<br>
+2017 SFS Cavalcade Asia-Pacific 2017, Beijing #<br>
+2016 NKU-SF Young Scholar Forum, School of Finance, Nankai University<br>
+2015 China International Conference of Finance (CICF), Shenzhen<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ASSA-AREUEA, Boston<br>
+2014 China Meeting of Econometrics Society, Xiamen, China<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Research Institute of Economics and Management Seminar, SWUFE, China<br><br></p>
+
+<h2>Professional Services</h2>
+<p>World Finance Conference, Program Committee<br>
+World Finance and Banking Symposium, Program Committee<br>
+Sydney Banking and Finance Conference, Program Committee<br>
+Eastern Finance Association Annual Meeting, Committee, 2022<br>
+AsRES-GCREC-AREUEA joint conference, Session Chair, Online, 2021<br>
+China International Risk Forum, Committee, 2019<br>
+China Financial Annual Meeting, Session Chair, Hangzhou, 2019<br>
+Global Chinese Real Estate Conference, Session Chair, Shenzhen, 2018<br><br></p>
+
+<h2>Grants</h2>
+<p>China National Natural Science Foundation Youth Project, Principal Investigator<br>
+China Minister of Education, Humanity and Social Science Foundation Youth Project, Principal Investigator<br>
+Fundamental Research Funds for Central Universities, Principal Investigator<br><br></p>
+
+<h2>Teaching</h2>
+<p>Investments, Nankai University, 2020 ~ (in English)<br>
+Corporate Finance, Nankai University, 2020 ~ (in English)<br>
+Banking, Nankai University, 2021 ~ (in English)<br>
+Banking, Nankai University, 2016 ~ 2020<br>
+Principles of Economics (Marco), Nankai University, 2016 ~ 2018<br>
+Intermediate Microeconomics, Nankai University, 2019<br>
+Frontiers of Finance Theory, Nankai University, 2017<br>
+Research Methodology and Writing, Nankai University, 2017<br><br></p>
+
         </div>
     </div>
-<!-- 
-    <div class="container">
-        <div class="column" style="line-height: 2em;">
-            <h1>Yunqi ZHANG 张云齐</h1>
-            <p>
-            Associate Professor, tenured<br>
-            长任副教授（教授）（2023.12 ~ )<br>
-            </p>
-            <P>
-            Associate Professor<br>
-            副教授（2023.5 ~ 2023.12）<br>
-            </P>
-            <P>
-            Assistant Professor<br>
-            助理教授（2016 ~ 2023.5)<br>
-            </p>
-            <p>
-            School of Finance, Nankai University<br>
-            Email: yunqizhang "at" u.nus.edu<br>
-            </p>
-            
-            <h2>Education</h2>
-            <p>PhD, National Unviersity of Singapore, 2011 ~ 2016</p>
-            <p>B.A. in Finance, School of Finance, Southwestern University of Finance and Economics, China, 2010</p>
-        </div>
-    </div> -->
 </body>
 </html>
