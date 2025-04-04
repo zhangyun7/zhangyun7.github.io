@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Page</title>
+    <title>Yunqi ZHANG</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -41,6 +41,57 @@
             height: auto;
             border-radius: 10px;
         }
+/*         .container {
+          display: flex;
+          flex-direction: column;
+          height: 100vh;
+        } */
+        .top-section {
+          display: flex;
+          margin-bottom: 20px;
+        }
+        
+        .left-text {
+          flex: 1;
+          padding-right: 20px;
+        }
+        
+        .right-image {
+          flex: 1;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        
+        .bottom-section {
+          flex: 1;
+          padding: 20px;
+        }
+        
+        img {
+          max-width: 100%;
+          max-height: 300px;
+          object-fit: contain;
+        }
+        
+        p {
+          line-height: 1.6;
+          margin-bottom: 1rem;
+        }
+        /* 响应式调整 */
+        @media (max-width: 768px) {
+          .top-section {
+            flex-direction: column;
+          }
+          
+          .left-text, .right-image {
+            width: 100%;
+          }
+          
+          .right-image {
+            margin-top: 20px;
+          }
+        }
     </style>
 </head>
 <body>
@@ -49,6 +100,19 @@
         <a href="research.html">Research</a>
         <a href="RA.html">学术指导与助研招收</a>
     </nav>
+    <div class="container mx-auto">
+      <div class="top-section bg-gray-100 dark:bg-gray-800 p-6 rounded-lg">
+        <div class="left-text bg-white dark:bg-gray-700 p-4 rounded-lg shadow-sm">
+          <p>这里是左上方文字段落1。图片将在右侧展示，文字内容会自动换行以适应空间。这种布局适合产品展示或图文并茂的内容。</p>
+        </div>
+        <div class="right-image bg-white dark:bg-gray-700 p-4 rounded-lg shadow-sm">
+          <img src="Profile_Photo.jpg" alt="Photo" class="rounded-lg shadow-md">
+        </div>
+      </div>
+      <div class="bottom-section bg-gray-100 dark:bg-gray-800 p-6 rounded-lg">
+        <p>这里是下半部分文字段落2。内容可以自由扩展，不受上方布局的限制。这种结构保证了良好的可读性和响应式设计。</p>
+      </div>
+    </div>
 
     <div class="container">
         <div class="column" style="line-height: 2em;">
@@ -73,9 +137,6 @@
             <h2>Education</h2>
             <p>PhD, National Unviersity of Singapore, 2011 ~ 2016</p>
             <p>B.A. in Finance, School of Finance, Southwestern University of Finance and Economics, China, 2010</p>
-        </div>
-        <div class="column">
-            <img src="Profile_Photo.jpg" alt="Photo" width="50%">
         </div>
     </div>
 </body>
