@@ -59,7 +59,26 @@
             width: 100%;
             overflow: hidden; /* 清除容器浮动 */
         }
-       .top-section {
+      <!-- /* 桌面端样式（≥768px） */
+        @media (min-width: 768px) {
+          .container {
+            width: 70%;
+            background: #f0f0f0;
+          }
+          .desktop-only { display: block; }
+          .mobile-only { display: none; }
+        }
+
+       /* 移动端样式（<768px） */
+        @media (max-width: 767px) {
+          .container {
+           width: 100%;
+           background: #e0e0e0;
+          }
+          .desktop-only { display: none; }
+          .mobile-only { display: block; }
+        } --!>
+        .top-section {
             width: 100%;
         }
         /* 左文本容器 */
@@ -105,7 +124,7 @@
         <div class="top-section">
             <div class="right-text">
             <h1>Yunqi ZHANG <span style="font-family: '楷体', KaiTi, DFKai-SB, sans-serif;">张云齐</span></h1>
-            <p>
+            <p class="desktop-only">
                 <strong> Associate Professor (tenured, senior title)<br>
                 长任副教授（教授）（2023.12 ~ )</strong><br><br>
             </p>
